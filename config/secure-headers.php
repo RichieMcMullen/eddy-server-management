@@ -438,6 +438,6 @@ return [
      */
 
     'csp' => [
-        'enable' => false,
+        'enable' => true,
     ],
 ];
