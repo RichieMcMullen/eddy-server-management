@@ -39,6 +39,7 @@ class Csp extends Policy
             ->addDirective(Directive::CONNECT, [
                 Keyword::SELF,
                 'wss://ws-eu.pusher.com',
+                'wss://ws-mt1.pusher.com',
                 '*.usefathom.com',
             ])
             ->addDirective(Directive::DEFAULT, Keyword::SELF)
